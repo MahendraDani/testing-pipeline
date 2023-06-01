@@ -1,0 +1,26 @@
+# This workflow checks for lint errors
+name: Check lint errors
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  check-lints:
+    name: lint codebase
+    runs-on: ubuntu-latest
+
+    steps:
+      # Checkout the repo
+      - name: Checkout codebase
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      # Run linter on codebase
+      - name: run linter
+        uses: github/super-linter@v4

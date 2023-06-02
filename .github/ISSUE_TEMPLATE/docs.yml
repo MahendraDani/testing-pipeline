@@ -1,7 +1,7 @@
 name: "📚 Documentation"
-description: Report a documentation deficiency to help improve the project. Or Suggestions for new workflow.
-title: "📚 [Documentation] - Title"
-labels: ["documentation"]
+description: Report a documentation deficiency to help improve the project or suggestions for new workflow.
+title: "docs: <title>"
+labels: ["docs"]
 body:
   - type: markdown
     attributes:
@@ -12,7 +12,7 @@ body:
   - type: textarea
     id: description
     attributes:
-      label: "Description of the documentation deficiency / workflow suggestion. ✍🏻"
+      label: "Description of the documentation deficiency / workflow suggestion."
       description: Please provide a clear and concise description of what the documentation deficiency / workflow suggestion is.
       placeholder: Short and explicit description of the documentation deficiency / workflow suggestion...
     validations:
@@ -21,7 +21,7 @@ body:
     id: terms
     attributes:
       label: Contributor terms
-      description: By submitting this issue, you agree to follow our Contributing Instructions. Please read our [Contributing Instructions](https://github.com/CatsInTech/GitHub-ReadMe/blob/main/Contributing.md).
+      description: By submitting this issue, you agree to follow our Contributing Instructions. Please read our [Contributing Instructions](https://github.com/jain-rishabh-21/DoctorVerse/blob/main/Contributing.md).
       options:
         - label: I agree to follow the Contributing Instructions
           required: true

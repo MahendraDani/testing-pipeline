@@ -13,8 +13,7 @@ body:
     id: description
     attributes:
       label: Description of the new feature.
-      description: Please provide a brief description of the feature you propose. Try to keep it short, simple and to the point.
-      Expalin why do you think this feature is required?
+      description: Please provide a brief description of the feature you propose. Try to keep it short, simple and to the point.Expalin why do you think this feature is required?
       placeholder: Short and explicit description of the enhancement...
     validations:
       required: true

@@ -1,7 +1,7 @@
 name: "📚 Documentation"
 description: Report a documentation deficiency to help improve the project or suggestions for new workflow.
 title: "docs: <title>"
-labels: ["docs"]
+labels: ["documentation"]
 body:
   - type: markdown
     attributes:

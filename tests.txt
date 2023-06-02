@@ -2,3 +2,5 @@ Checking the pr_lint error for feat: <text> format
 Checking the pr_lint error for feat: <text> format again
 
 Error : The scope may not be empty
+
+Testing if the PR template works?

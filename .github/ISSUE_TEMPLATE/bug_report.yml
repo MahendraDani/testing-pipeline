@@ -5,7 +5,7 @@ labels: ["Bug", "Needs Triage"]
 body:
   - type: checkboxes
     attributes:
-      label: Is there an existing issue for this?
+      label: Is there an existing issue for this bug?
       description: Please search to see if an issue already exists for the bug you encountered.
       options:
         - label: I have searched the existing issues
@@ -14,12 +14,14 @@ body:
     attributes:
       label: Current Behavior
       description: Please provide a concise description of what you're experiencing.
+      placeholder: Provide a short and simple description of the current behaviour of the bug.
     validations:
       required: false
   - type: textarea
     attributes:
       label: Expected Behavior
       description: Please provide a concise description of what you expected to happen.
+      placeholder: Provide a short and simple description of the expected behaviour of the bug.
     validations:
       required: false
   - type: textarea
